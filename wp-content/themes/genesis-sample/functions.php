@@ -115,6 +115,8 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 
 // Add Image Sizes.
 add_image_size( 'featured-image', 720, 400, TRUE );
+add_image_size( 'smaller-thumb', 60, 60, TRUE );
+add_image_size('grid-thumbnail', 100, 100, TRUE);
 
 // Rename primary and secondary navigation menus.
 add_theme_support( 'genesis-menus', array( 'primary' => __( 'After Header Menu', 'genesis-sample' ), 'secondary' => __( 'Footer Menu', 'genesis-sample' ) ) );
