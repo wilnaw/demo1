@@ -1178,6 +1178,12 @@ p.entry-meta {
 	margin-bottom: 60px;
 }
 
+.sidebar .widget.widget_search, .sidebar .widget.widget_text {
+	background: none;
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 0px;
+}
 
 /* # Site Footer
 ---------------------------------------------------------------------------------------------------- */
