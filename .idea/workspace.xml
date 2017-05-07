@@ -1,94 +1,408 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3974e233-8235-43c7-96b5-9a99cf8a3aa2" name="Default" comment="Sat Apr 8 3:36 AM - (Working on colors, Sidebar grid, Contact Page, Bootstrap Support)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/images/field-map-buttons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/images/field-map-reset.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-he_IL.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-ja.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Movefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.codekit3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/class-gf-feed-processor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/gaddon_genericmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/gaddon_genericmap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/class-gf-upgrade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/libraries/wp-async-request.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/libraries/wp-background-process.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/logging/includes/KLogger.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/logging/logging.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/system-status/class-gf-system-report.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/system-status/class-gf-system-status.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/system-status/class-gf-update.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/system-status/js/clipboard.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/wizard/class-gf-upgrade-wizard.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/readme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/genesis-sample/page_home.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/genesis-sample/readme.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/genesis-sample/home.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis-sample/front-page.php" />
+    <list default="true" id="3974e233-8235-43c7-96b5-9a99cf8a3aa2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/genesis-sample/front_page.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/genesis-simple-sidebars/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/genesis-simple-sidebars/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/genesis-simple-sidebars/includes/admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/genesis-simple-sidebars/includes/inpost.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/genesis-simple-sidebars/includes/term.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/genesis-simple-sidebars/includes/views/edit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/genesis-simple-sidebars/includes/views/main.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/genesis-simple-sidebars/languages/genesis-simple-sidebars-de_DE.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/genesis-simple-sidebars/languages/genesis-simple-sidebars-de_DE.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/genesis-simple-sidebars/languages/genesis-simple-sidebars.pot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/genesis-simple-sidebars/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/genesis-simple-sidebars/plugin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/genesis-simple-sidebars/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/libraries/wp-background-process.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/official-treehouse-badges-widgets-and-shortcodes/images/mike-the-frog.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/official-treehouse-badges-widgets-and-shortcodes/images/tooltip-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/official-treehouse-badges-widgets-and-shortcodes/images/treehouse-logo-demo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/official-treehouse-badges-widgets-and-shortcodes/images/treehouse-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/official-treehouse-badges-widgets-and-shortcodes/images/wp-badge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/official-treehouse-badges-widgets-and-shortcodes/inc/front-end-affiliate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/official-treehouse-badges-widgets-and-shortcodes/inc/front-end-badges.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/official-treehouse-badges-widgets-and-shortcodes/inc/options-page-wrapper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/official-treehouse-badges-widgets-and-shortcodes/inc/widget-fields-affiliate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/official-treehouse-badges-widgets-and-shortcodes/inc/widget-fields-badges.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/official-treehouse-badges-widgets-and-shortcodes/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/official-treehouse-badges-widgets-and-shortcodes/wptreehouse-badges.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/official-treehouse-badges-widgets-and-shortcodes/wptreehouse-badges.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/official-treehouse-badges-widgets-and-shortcodes/wptreehouse-badges.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/admin-global-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/adminbar-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/alerts-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dashboard-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/admin-global-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/adminbar-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/alerts-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/dashboard-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/edit-page-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/featured-image-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/help-center-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/inside-editor-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/kb-search-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/metabox-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/metabox-primary-category-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/snippet-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/toggle-switch-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/wpseo-dismissible-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yoast-components-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yoast-extensions-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yst_plugin_tools-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yst_seo_score-450-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/edit-page-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/featured-image-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/help-center-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/inside-editor-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/kb-search-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/metabox-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/metabox-primary-category-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/snippet-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/toggle-switch-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/wpseo-dismissible-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/yoast-components-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/yoast-extensions-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/yst_plugin_tools-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/yst_seo_score-450.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/configuration-wizard-450.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-admin-450.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-admin-global-450.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-admin-gsc-450.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-admin-media-450.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-bulk-editor-450.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-dismissible-450.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-featured-image-450.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-metabox-450.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-metabox-category-450.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-post-scraper-450.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-recalculate-450.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-replacevar-plugin-450.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-shortcode-plugin-450.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-term-scraper-450.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-ar.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-ar.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-ca.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-ca.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-da_DK.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-da_DK.mo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-de_DE.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-de_DE.mo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-de_DE_formal.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-de_DE_formal.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-en.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-en.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-en_AU.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-en_AU.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-en_GB.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-en_GB.mo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-es_ES.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-es_ES.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-fi.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-fi.mo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-fr_FR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-fr_FR.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-it_IT.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-it_IT.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-ja.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-ja.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-nb_NO.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-nb_NO.mo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-nl_NL.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-nl_NL.mo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-pt_BR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-pt_BR.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-pt_PT.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-pt_PT.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-ru_RU.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-ru_RU.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-sv_SE.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-sv_SE.mo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-zh_CN.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms-zh_CN.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.eot" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.ttf" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/wp-tinymce.js.gz" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/wp-tinymce.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/about.php" afterPath="$PROJECT_DIR$/wp-admin/about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/customize-controls-rtl.css" afterPath="$PROJECT_DIR$/wp-admin/css/customize-controls-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/customize-controls-rtl.min.css" afterPath="$PROJECT_DIR$/wp-admin/css/customize-controls-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/customize-controls.css" afterPath="$PROJECT_DIR$/wp-admin/css/customize-controls.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/customize-controls.min.css" afterPath="$PROJECT_DIR$/wp-admin/css/customize-controls.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/customize-nav-menus-rtl.css" afterPath="$PROJECT_DIR$/wp-admin/css/customize-nav-menus-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/customize-nav-menus-rtl.min.css" afterPath="$PROJECT_DIR$/wp-admin/css/customize-nav-menus-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/customize-nav-menus.css" afterPath="$PROJECT_DIR$/wp-admin/css/customize-nav-menus.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/customize-nav-menus.min.css" afterPath="$PROJECT_DIR$/wp-admin/css/customize-nav-menus.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/customize.php" afterPath="$PROJECT_DIR$/wp-admin/customize.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/media.php" afterPath="$PROJECT_DIR$/wp-admin/includes/media.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/theme.php" afterPath="$PROJECT_DIR$/wp-admin/includes/theme.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/install.php" afterPath="$PROJECT_DIR$/wp-admin/install.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/customize-controls.js" afterPath="$PROJECT_DIR$/wp-admin/js/customize-controls.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/customize-controls.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/customize-controls.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/customize-nav-menus.js" afterPath="$PROJECT_DIR$/wp-admin/js/customize-nav-menus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/customize-nav-menus.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/customize-nav-menus.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/inline-edit-post.js" afterPath="$PROJECT_DIR$/wp-admin/js/inline-edit-post.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/inline-edit-post.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/inline-edit-post.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/tags-suggest.js" afterPath="$PROJECT_DIR$/wp-admin/js/tags-suggest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/tags-suggest.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/tags-suggest.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/menu.php" afterPath="$PROJECT_DIR$/wp-admin/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/nav-menus.php" afterPath="$PROJECT_DIR$/wp-admin/nav-menus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/widgets.php" afterPath="$PROJECT_DIR$/wp-admin/widgets.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/change_log.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/change_log.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/common.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/common.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/css/admin.css" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/css/admin.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/css/admin.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/css/admin.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/entry_detail.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/entry_detail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/export.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/export.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/form_detail.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/form_detail.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/form_display.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/form_display.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/form_list.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/form_list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/form_settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/form_settings.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/forms_model.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/forms_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/gravityforms.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/gravityforms.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/class-gf-addon.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/class-gf-addon.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/class-gf-auto-upgrade.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/class-gf-auto-upgrade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/class-gf-feed-addon.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/class-gf-feed-addon.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/class-gf-payment-addon.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/class-gf-payment-addon.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/css/gaddon_form_settings.css" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/css/gaddon_form_settings.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/css/gaddon_form_settings.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/css/gaddon_form_settings.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/css/gaddon_settings.css" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/css/gaddon_settings.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/css/gaddon_settings.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/css/gaddon_settings.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/gaddon_feedorder.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/gaddon_feedorder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/class-gf-feed-processor.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/class-gf-feed-processor.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/gaddon_feedorder.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/gaddon_feedorder.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/gaddon_fieldmap.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/gaddon_fieldmap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/gaddon_fieldmap.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/gaddon_fieldmap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/api.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/gaddon_genericmap.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/gaddon_genericmap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/gaddon_payment.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/gaddon_payment.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/gaddon_results.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/gaddon_results.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/repeater.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/addon/js/repeater.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/class-gf-download.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/class-gf-download.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-address.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-address.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-checkbox.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-checkbox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-email.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/class-gf-upgrade.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/class-gf-upgrade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-list.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-list.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-multiselect.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-multiselect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-name.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-name.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-number.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-number.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-radio.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-radio.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-textarea.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field-textarea.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/fields/class-gf-field.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/webapi/webapi.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/webapi/webapi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/wizard/class-gf-installation-wizard.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/wizard/class-gf-installation-wizard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/form_admin.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/form_admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/locking/js/locking.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/locking/js/locking.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/system-status/class-gf-system-report.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/system-status/class-gf-system-report.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/upload.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/upload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/webapi/js/enc-base64-min.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/webapi/js/enc-base64-min.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/webapi/js/hmac-sha1.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/includes/webapi/js/hmac-sha1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/conditional_logic.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/conditional_logic.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/form_admin.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/form_admin.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/form_editor.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/form_editor.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/form_editor.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/form_editor.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/gravityforms.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/gravityforms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/forms.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/forms.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/gf_field_filter.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/gf_field_filter.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/gravityforms.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/gravityforms.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/jquery.textareaCounter.plugin.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/jquery.textareaCounter.plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/jquery.json-1.3.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/jquery.json-1.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/jquery.json.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/jquery.json.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/jquery.textareaCounter.plugin.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/jquery.textareaCounter.plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/shortcode-ui.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/shortcode-ui.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/tooltip_init.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/js/tooltip_init.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/languages/gravityforms.pot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/select_columns.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/select_columns.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/gravityforms/settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravityforms/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/ajax.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/banner/class-admin-banner-sidebar.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/banner/class-admin-banner-sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/banner/class-admin-banner-spot.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/banner/class-admin-banner-spot.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-asset-manager.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-asset-manager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-bulk-editor-list-table.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-bulk-editor-list-table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-export.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-export.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-plugin-availability.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-plugin-availability.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-primary-term-admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-primary-term-admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-product-upsell-notice.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-product-upsell-notice.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-social-facebook.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-social-facebook.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-form.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/class-configuration-components.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/class-configuration-components.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/class-configuration-page.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/class-configuration-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/class-configuration-structure.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/class-configuration-structure.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/components/class-component-connect-google-search-console.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/components/class-component-connect-google-search-console.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/fields/class-field-choice-post-type.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/fields/class-field-choice-post-type.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/fields/class-field-mailchimp-signup.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/fields/class-field-mailchimp-signup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/fields/class-field-post-type-visibility.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/fields/class-field-post-type-visibility.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/fields/class-field-social-profiles-intro.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/fields/class-field-social-profiles-intro.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/fields/class-field-success-message.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/fields/class-field-success-message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/fields/class-field-upsell-configuration-service.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/fields/class-field-upsell-configuration-service.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/fields/class-field-upsell-site-review.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/fields/class-field-upsell-site-review.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/fields/class-field.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/config-ui/fields/class-field.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/google_search_console/views/gsc-display.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/google_search_console/views/gsc-display.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/metabox/class-metabox-add-keyword-tab.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/metabox/class-metabox-add-keyword-tab.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/metabox/class-metabox-editor.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/metabox/class-metabox-editor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/metabox/class-metabox.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/metabox/class-metabox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/pages/licenses.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/pages/licenses.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/pages/metas.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/pages/metas.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/advanced/breadcrumbs.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/advanced/breadcrumbs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/dashboard/features.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tabs/dashboard/features.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-advanced-settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/class-wpseo-advanced-settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-wpseo.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-wpseo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ca.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ca.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-da_DK.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-da_DK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-es_ES.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-es_ES.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fr_FR.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fr_FR.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-it_IT.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-it_IT.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-nl_NL.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-nl_NL.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pl_PL.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pl_PL.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pt_BR.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pt_BR.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pt_PT.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pt_PT.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ru_RU.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ru_RU.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-bg_BG.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-bg_BG.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ca.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ca.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-cs_CZ.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-cs_CZ.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-da_DK.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-da_DK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-de_DE.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-de_DE.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_AU.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_AU.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_CA.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_CA.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_GB.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_GB.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_NZ.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-en_NZ.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_CL.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_CL.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_ES.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_ES.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_MX.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_MX.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_VE.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-es_VE.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-eu.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-eu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-fa_IR.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-fa_IR.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-fr_FR.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-fr_FR.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-he_IL.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-he_IL.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-hr.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-hr.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-hu_HU.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-hu_HU.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-it_IT.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-it_IT.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ja.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ja.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-nb_NO.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-nb_NO.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-nl_NL.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-nl_NL.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-pl_PL.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-pl_PL.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-pt_BR.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-pt_BR.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-pt_PT.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-pt_PT.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ro_RO.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ro_RO.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ru_RU.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ru_RU.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-sq.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-sq.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-sv_SE.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-sv_SE.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-tr_TR.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-tr_TR.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-zh_HK.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-zh_HK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-zh_TW.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-zh_TW.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/autoload.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/autoload_52.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/autoload_52.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_real_52.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_real_52.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo-main.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo-main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis-sample/front-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis-sample/front-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis-sample/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis-sample/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis-sample/lib/helper-functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis-sample/lib/helper-functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis-sample/page_landing.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis-sample/page_landing.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis-sample/readme.html" afterPath="$PROJECT_DIR$/wp-content/themes/genesis-sample/readme.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis-sample/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/genesis-sample/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/CHANGELOG.md" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/comments.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/cpt-archive-settings.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/cpt-archive-settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/customizer.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/customizer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/import-export.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/import-export.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/inpost-metaboxes.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/inpost-metaboxes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/menu.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/seo-settings.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/seo-settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/term-meta.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/term-meta.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/theme-settings.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/theme-settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/use-child-theme.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/use-child-theme.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/user-meta.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/user-meta.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/whats-new.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/whats-new.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/classes/admin.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/classes/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/classes/breadcrumb.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/classes/breadcrumb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/classes/cli.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/classes/cli.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/classes/sanitization.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/classes/sanitization.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/css/admin-rtl.css" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/css/admin-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/css/admin-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/css/admin-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/css/admin.css" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/css/admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/css/admin.min.css" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/css/admin.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/breadcrumb.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/breadcrumb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/compat.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/compat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/deprecated.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/deprecated.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/feed.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/feed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/formatting.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/formatting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/general.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/general.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/head.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/head.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/image.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/layout.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/layout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/markup.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/markup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/menu.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/options.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/options.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/seo.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/seo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/toolbar.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/toolbar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/upgrade.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/upgrade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/widgetize.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/widgetize.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/init.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/js/admin.js" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/js/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/js/admin.min.js" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/js/admin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/js/load-scripts.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/js/load-scripts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/js/menu/superfish.args.min.js" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/js/menu/superfish.args.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/js/menu/superfish.compat.min.js" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/js/menu/superfish.compat.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/js/menu/superfish.min.js" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/js/menu/superfish.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/js/skip-links.js" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/js/skip-links.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/languages/genesis.pot" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/languages/genesis.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/shortcodes/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/shortcodes/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/shortcodes/post.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/shortcodes/post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/archive.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/comments.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/layout.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/layout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/loops.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/loops.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/menu.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/post.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/search.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/sidebar.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/xhtml.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/xhtml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/widgets/featured-page-widget.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/widgets/featured-page-widget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/widgets/featured-post-widget.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/widgets/featured-post-widget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/widgets/user-profile-widget.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/widgets/user-profile-widget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/lib/widgets/widgets.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/lib/widgets/widgets.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/page_blog.php" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/page_blog.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/genesis/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/genesis/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-customize-manager.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-customize-manager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-customize-panel.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-customize-panel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-customize-widgets.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-customize-widgets.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-post-type.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-post-type.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-taxonomy.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-taxonomy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-theme.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-theme.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/css/buttons-rtl.css" afterPath="$PROJECT_DIR$/wp-includes/css/buttons-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/css/buttons-rtl.min.css" afterPath="$PROJECT_DIR$/wp-includes/css/buttons-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/css/buttons.css" afterPath="$PROJECT_DIR$/wp-includes/css/buttons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/css/buttons.min.css" afterPath="$PROJECT_DIR$/wp-includes/css/buttons.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/css/media-views-rtl.css" afterPath="$PROJECT_DIR$/wp-includes/css/media-views-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/css/media-views-rtl.min.css" afterPath="$PROJECT_DIR$/wp-includes/css/media-views-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/css/media-views.css" afterPath="$PROJECT_DIR$/wp-includes/css/media-views.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/css/media-views.min.css" afterPath="$PROJECT_DIR$/wp-includes/css/media-views.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/css/wp-auth-check-rtl.css" afterPath="$PROJECT_DIR$/wp-includes/css/wp-auth-check-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/css/wp-auth-check-rtl.min.css" afterPath="$PROJECT_DIR$/wp-includes/css/wp-auth-check-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/css/wp-auth-check.css" afterPath="$PROJECT_DIR$/wp-includes/css/wp-auth-check.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/css/wp-auth-check.min.css" afterPath="$PROJECT_DIR$/wp-includes/css/wp-auth-check.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/customize/class-wp-customize-selective-refresh.php" afterPath="$PROJECT_DIR$/wp-includes/customize/class-wp-customize-selective-refresh.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/customize/class-wp-customize-site-icon-control.php" afterPath="$PROJECT_DIR$/wp-includes/customize/class-wp-customize-site-icon-control.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/default-constants.php" afterPath="$PROJECT_DIR$/wp-includes/default-constants.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/functions.php" afterPath="$PROJECT_DIR$/wp-includes/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/customize-base.js" afterPath="$PROJECT_DIR$/wp-includes/js/customize-base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/customize-base.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/customize-base.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/customize-preview.js" afterPath="$PROJECT_DIR$/wp-includes/js/customize-preview.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/customize-preview.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/customize-preview.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/mce-view.js" afterPath="$PROJECT_DIR$/wp-includes/js/mce-view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/mce-view.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/mce-view.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/charmap/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/charmap/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/charmap/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/charmap/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/colorpicker/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/colorpicker/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/compat3x/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/compat3x/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/compat3x/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/compat3x/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/directionality/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/directionality/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/fullscreen/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/fullscreen/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/hr/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/hr/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/image/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/image/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/image/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/image/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/lists/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/lists/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/lists/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/lists/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/media/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/media/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/media/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/media/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/paste/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/paste/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/paste/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/paste/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/tabfocus/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/tabfocus/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/textcolor/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/textcolor/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wordpress/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wordpress/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wordpress/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wordpress/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/content.inline.min.css" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/content.inline.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/content.min.css" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/content.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.json" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.svg" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/skin.ie7.min.css" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/skin.ie7.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/skin.min.css" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/skin.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/inlite/theme.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/inlite/theme.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/inlite/theme.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/inlite/theme.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/modern/theme.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/modern/theme.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/modern/theme.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/modern/theme.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/tinymce.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/tinymce.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/media-template.php" afterPath="$PROJECT_DIR$/wp-includes/media-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/media.php" afterPath="$PROJECT_DIR$/wp-includes/media.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/ms-blogs.php" afterPath="$PROJECT_DIR$/wp-includes/ms-blogs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/ms-default-filters.php" afterPath="$PROJECT_DIR$/wp-includes/ms-default-filters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/pluggable.php" afterPath="$PROJECT_DIR$/wp-includes/pluggable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/rest-api/class-wp-rest-server.php" afterPath="$PROJECT_DIR$/wp-includes/rest-api/class-wp-rest-server.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php" afterPath="$PROJECT_DIR$/wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/taxonomy.php" afterPath="$PROJECT_DIR$/wp-includes/taxonomy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/theme.php" afterPath="$PROJECT_DIR$/wp-includes/theme.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/version.php" afterPath="$PROJECT_DIR$/wp-includes/version.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-settings.php" afterPath="$PROJECT_DIR$/wp-settings.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -113,38 +427,7 @@
     <favorites_list name="www.example.dev" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wp-comments-post.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-comments-post.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="front-page.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/front-page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page_landing.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/page_landing.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -172,7 +455,16 @@
       <find>cont</find>
       <find>more-link</find>
       <find>author-box</find>
+      <find>color</find>
+      <find>cashmoneylife</find>
+      <find>http://cashmoneylife.com</find>
+      <find>archive-discription</find>
+      <find>home_after_header</find>
+      <find>919396</find>
     </findStrings>
+    <replaceStrings>
+      <replace>wilnaudesign</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -182,23 +474,34 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/genesis/lib/shortcodes/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/xml/sample.xml" />
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/testing-grid-sidebar.html" />
         <option value="$PROJECT_DIR$/config.codekit3" />
-        <option value="$PROJECT_DIR$/readme.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/themes/genesis/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/readme.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/page_home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/home.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/page_landing.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/genesis/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/style.css" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.txt" />
+        <option value="$PROJECT_DIR$/wp-content/themes/genesis/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/images/start-investing-icon.svg" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/front_page.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/page_landing.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/front-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/genesis/page_blog.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/lib/helper-functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/functions.php" />
+        <option value="$PROJECT_DIR$/readme.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/images/checking-accounts-icon.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/images/investment-accounts-icon.svg" />
+        <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/readme.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/genesis-sample/style.css" />
       </list>
     </option>
   </component>
@@ -211,12 +514,12 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="171" />
-    <option name="y" value="47" />
-    <option name="width" value="2290" />
-    <option name="height" value="1274" />
+    <option name="x" value="186" />
+    <option name="y" value="22" />
+    <option name="width" value="1993" />
+    <option name="height" value="1343" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -256,7 +559,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers ProjectPane="true" />
       <showModules />
@@ -270,6 +573,118 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genesis-sample" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="genesis-sample" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Extensions" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.intellij.database" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyPsiNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -314,28 +729,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="demo1.dev">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="wp-content">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="themes">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="genesis-sample">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
         <subPane subId="Default">
           <PATH>
@@ -364,42 +757,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Extensions" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.intellij.database" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyPsiNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo1.dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo1.dev" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="stylesheet.stylelint.nodeInterpreter" value="project" />
     <property name="stylesheet.stylelint.stylelintPackage" value="" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
@@ -413,7 +774,8 @@
     <property name="add_unversioned_files" value="true&#10;/Users/gregorywilnau/Sites/demo1.dev/license.txt&#10;/Users/gregorywilnau/Sites/demo1.dev/readme.html&#10;/Users/gregorywilnau/Sites/demo1.dev/wp-content/themes/genesis-sample/readme.html" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="TODO_SCOPE" value="Project Files" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT&#10;yaml&#10;CSS" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="PHP&#10;HTML&#10;TEXT&#10;yaml" />
+    <property name="SearchEverywhereHistoryKey" value="home_a&#9;null&#9;null&#10;home_after_header&#9;null&#9;null&#10;after-header&#9;null&#9;null&#10;genesis_header_right&#9;null&#9;null&#10;@media &#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -432,7 +794,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.front-oage.php">
+  <component name="RunManager" selected="JavaScript Debug.front-page.php">
+    <configuration default="false" name="front-page.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/demo1.dev/front-page.php">
+      <method />
+    </configuration>
     <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
       <method />
     </configuration>
@@ -500,10 +865,16 @@
     <configuration default="false" name="front-oage.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/wp-content/themes/genesis-sample/front-oage.php">
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.functions.php" />
       <item index="1" class="java.lang.String" itemvalue="PHP Script.front-oage.php" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.front-page.php" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.front-page.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -537,7 +908,13 @@
       <workItem from="1491639294079" duration="104000" />
       <workItem from="1491709583091" duration="542000" />
       <workItem from="1491779156737" duration="19732000" />
-      <workItem from="1491873092601" duration="3949000" />
+      <workItem from="1491873092601" duration="4293000" />
+      <workItem from="1491936593771" duration="240000" />
+      <workItem from="1493488157165" duration="3127000" />
+      <workItem from="1493491768310" duration="2117000" />
+      <workItem from="1493704788315" duration="1836000" />
+      <workItem from="1494021031180" duration="12267000" />
+      <workItem from="1494188459718" duration="2994000" />
     </task>
     <task id="LOCAL-00001" summary="Sat Apr 8 3:34 AM - Working on colors, Sidebar grid, Contact Page, Bootstrap Support)">
       <created>1491636942918</created>
@@ -560,11 +937,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491813674370</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Sat Apr 10 11:03 PM - (Tweaking menus, importing code for sign up form on landing page, playing with most popular widget in primary sidebar, removing home.php and replacing with front-page.php)">
+      <created>1491879959421</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1491879959421</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39393000" />
+    <option name="totallyTimeSpent" value="62318000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -579,17 +963,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="171" y="47" width="2290" height="1274" extended-state="0" />
+    <frame x="186" y="22" width="1993" height="1343" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39546263" sideWeight="0.49624413" order="6" side_tool="false" content_ui="combo" x="2013" y="79" width="478" height="429" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32950392" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.24626279" sideWeight="0.5117371" order="13" side_tool="true" content_ui="tabs" x="1747" y="945" width="767" height="423" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27595156" sideWeight="0.49608356" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.24626279" sideWeight="0.48826292" order="12" side_tool="false" content_ui="tabs" x="0" y="211" width="621" height="408" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13656583" sideWeight="0.49803615" order="1" side_tool="false" content_ui="combo" x="0" y="22" width="433" height="948" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27003205" sideWeight="0.49608356" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.24626279" sideWeight="0.48826292" order="12" side_tool="false" content_ui="tabs" x="248" y="280" width="621" height="408" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21224286" sideWeight="0.49803615" order="1" side_tool="false" content_ui="combo" x="0" y="22" width="433" height="948" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32988268" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2710204" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1571683" sideWeight="0.4917388" order="2" side_tool="false" content_ui="tabs" x="0" y="344" width="343" height="912" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39984164" sideWeight="0.4981723" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13579698" sideWeight="0.50196385" order="3" side_tool="true" content_ui="tabs" />
@@ -602,12 +987,41 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.2244898" sideWeight="0.51229507" order="9" side_tool="true" content_ui="tabs" x="980" y="282" width="1195" height="750" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32517007" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="271" y="147" width="2090" height="1074" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="271" y="147" width="2090" height="1074" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2725061" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32950392" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.24626279" sideWeight="0.5117371" order="13" side_tool="true" content_ui="tabs" x="1747" y="945" width="767" height="423" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986832" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.2244898" sideWeight="0.51229507" order="9" side_tool="true" content_ui="tabs" x="980" y="282" width="1195" height="750" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32988268" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1571683" sideWeight="0.4917388" order="2" side_tool="false" content_ui="tabs" x="0" y="344" width="343" height="912" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39984164" sideWeight="0.4981723" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39546263" sideWeight="0.49624413" order="6" side_tool="false" content_ui="combo" x="2013" y="79" width="478" height="429" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32517007" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="271" y="147" width="2090" height="1074" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2753287" sideWeight="0.49608356" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.24626279" sideWeight="0.48826292" order="12" side_tool="false" content_ui="tabs" x="248" y="280" width="621" height="408" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2168119" sideWeight="0.49803615" order="1" side_tool="false" content_ui="combo" x="0" y="22" width="433" height="948" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27160493" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13579698" sideWeight="0.50196385" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -667,119 +1081,276 @@
     <MESSAGE value="Sat Apr 8 3:34 AM - Working on colors, Sidebar grid, Contact Page, Bootstrap Support)" />
     <MESSAGE value="Sat Apr 8 3:36 AM - (Working on colors, Sidebar grid, Contact Page, Bootstrap Support)" />
     <MESSAGE value="Sat Apr 10 4:40 AM - (Sidebar grid, read more button, masanory layout on home page)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sat Apr 10 4:40 AM - (Sidebar grid, read more button, masanory layout on home page)" />
+    <MESSAGE value="Sat Apr 10 11:03 PM - (Tweaking menus, importing code for sign up form on landing page, playing with most popular widget in primary sidebar, removing home.php and replacing with front-page.php)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sat Apr 10 11:03 PM - (Tweaking menus, importing code for sign up form on landing page, playing with most popular widget in primary sidebar, removing home.php and replacing with front-page.php)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/wp-content/themes/genesis-sample/js/responsive-menus.js</url>
+          <line>14</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/screenshot.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/screenshot.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/search.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/image.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-537">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/markup.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-560">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/sidebar-alt.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9734">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/testing-grid-sidebar.html" />
-    <entry file="file://$PROJECT_DIR$/Movefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/license.txt">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/options.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/toolbar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#190#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/js/responsive-menus.js">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/upgrade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1786">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/images/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/functions/widgetize.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="-4143">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/webcomponentsjs/package.json" />
-    <entry file="file://$PROJECT_DIR$/bower_components/webcomponentsjs/README.md" />
-    <entry file="file://$PROJECT_DIR$/bower.json" />
-    <entry file="file://$PROJECT_DIR$/xmlrpc.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/css/load-styles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/classes/class-genesis-admin-meta-boxes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/seo-settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1845">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/classes/breadcrumb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/classes/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="599" column="29" lean-forward="false" selection-start-line="599" selection-start-column="29" selection-end-line="599" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/images/genesis-menu.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/images/whats-new.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/images/layouts/cs.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/images/layouts/c.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/images/layouts/sc.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/images/layouts/scs.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/images/layouts/ssc.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/admin-functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/cpt-archive-settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/admin/customizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/config/contributors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-536">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/CHANGELOG.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-12">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/page_archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/page_blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/lib/structure/loops.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/lib/customize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/lib/theme-defaults.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/lib/output.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/lib/helper-functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#232#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#31#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="98" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -788,90 +1359,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/languages/genesis-sample.pot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/lib/theme-defaults.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/lib/helper-functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/lib/customize.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/CHANGELOG.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/screenshot.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/page_home.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-136">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -879,32 +1386,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="146">
+          <caret line="160" column="56" lean-forward="false" selection-start-line="160" selection-start-column="56" selection-end-line="160" selection-end-column="56" />
+          <folding>
+            <element signature="e#489#499#0#PHP" expanded="false" />
+            <element signature="n#genesis_sample_localization_setup#0;n#!!top" expanded="false" />
+            <element signature="n#genesis_sample_enqueue_scripts_styles#0;n#!!top" expanded="false" />
+            <element signature="e#2136#2267#0#PHP" expanded="false" />
+            <element signature="n#genesis_sample_responsive_menu_settings#0;n#!!top" expanded="false" />
+            <element signature="e#2380#2767#0#PHP" expanded="false" />
+            <element signature="e#2660#2763#1#PHP" expanded="false" />
+            <element signature="e#2683#2733#1#PHP" expanded="false" />
+            <element signature="e#3267#3425#0#PHP" expanded="false" />
+            <element signature="n#genesis_sample_secondary_menu_args#0;n#!!top" expanded="false" />
+            <element signature="e#4437#4503#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/readme.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="188" selection-end-column="14" />
+        <state relative-caret-position="184">
+          <caret line="195" column="12" lean-forward="true" selection-start-line="195" selection-start-column="4" selection-end-line="195" selection-end-column="12" />
           <folding>
-            <element signature="n#a#0;n#div#1;n#div#0;n#div#0;n#li#4;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#li#4;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#svg#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#li#4;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#li#4;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#li#4;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#li#4;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#li#4;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#div#0;n#li#4;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#2;n#div#0;n#li#4;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#2;n#div#2;n#div#0;n#li#4;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#4;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.html">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/images/bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/images/investment-accounts-icon.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/page_landing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/images/checking-accounts-icon.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/images/credit-card-icon.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/images/credit-score-icon.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -912,33 +1459,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/images/home-atf.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="887" column="19" lean-forward="true" selection-start-line="887" selection-start-column="19" selection-end-line="887" selection-end-column="19" />
-          <folding>
-            <element signature="e#14084#14111#0" expanded="false" />
-            <element signature="e#14129#14231#0" expanded="false" />
-            <element signature="e#14247#14296#0" expanded="false" />
-            <element signature="e#14381#14405#0" expanded="false" />
-            <element signature="e#14623#14662#0" expanded="false" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/images/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        <state relative-caret-position="36">
+          <caret line="2158" column="3" lean-forward="false" selection-start-line="2158" selection-start-column="3" selection-end-line="2158" selection-end-column="3" />
           <folding>
+            <element signature="e#0#351#0" expanded="false" />
+            <element signature="e#353#1307#0" expanded="false" />
             <element signature="e#1593#1686#0" expanded="false" />
             <element signature="e#1693#1708#0" expanded="false" />
             <element signature="e#1805#1825#0" expanded="false" />
@@ -1059,397 +1596,231 @@
             <element signature="e#13693#13711#0" expanded="false" />
             <element signature="e#13817#13836#0" expanded="false" />
             <element signature="e#13867#13885#0" expanded="false" />
-            <element signature="e#13980#14049#0" expanded="false" />
-            <element signature="e#14069#14087#0" expanded="false" />
-            <element signature="e#14102#14145#0" expanded="false" />
-            <element signature="e#14174#14210#0" expanded="false" />
-            <element signature="e#14225#14242#0" expanded="false" />
-            <element signature="e#14257#14279#0" expanded="false" />
-            <element signature="e#14351#14429#0" expanded="false" />
-            <element signature="e#14475#14510#0" expanded="false" />
-            <element signature="e#14589#14607#0" expanded="false" />
-            <element signature="e#14657#14691#0" expanded="false" />
-            <element signature="e#14737#14756#0" expanded="false" />
-            <element signature="e#15058#15111#0" expanded="false" />
-            <element signature="e#15152#15185#0" expanded="false" />
-            <element signature="e#15211#15244#0" expanded="false" />
-            <element signature="e#15272#15304#0" expanded="false" />
-            <element signature="e#15318#15351#0" expanded="false" />
-            <element signature="e#15368#15400#0" expanded="false" />
-            <element signature="e#15413#15445#0" expanded="false" />
-            <element signature="e#15460#15492#0" expanded="false" />
-            <element signature="e#15501#15537#0" expanded="false" />
-            <element signature="e#15730#15770#0" expanded="false" />
-            <element signature="e#15812#15837#0" expanded="false" />
-            <element signature="e#15859#15883#0" expanded="false" />
-            <element signature="e#15902#15930#0" expanded="false" />
-            <element signature="e#16007#16123#0" expanded="false" />
-            <element signature="e#16165#16191#0" expanded="false" />
-            <element signature="e#16219#16222#0" expanded="false" />
-            <element signature="e#16240#16349#0" expanded="false" />
-            <element signature="e#16411#16434#0" expanded="false" />
-            <element signature="e#16457#16460#0" expanded="false" />
-            <element signature="e#16542#16565#0" expanded="false" />
-            <element signature="e#16622#16662#0" expanded="false" />
-            <element signature="e#16690#16732#0" expanded="false" />
-            <element signature="e#16810#16833#0" expanded="false" />
-            <element signature="e#16919#17042#0" expanded="false" />
-            <element signature="e#17175#17216#0" expanded="false" />
-            <element signature="e#17231#17274#0" expanded="false" />
-            <element signature="e#17317#17360#0" expanded="false" />
-            <element signature="e#17405#17426#0" expanded="false" />
-            <element signature="e#17442#17508#0" expanded="false" />
-            <element signature="e#17525#17569#0" expanded="false" />
-            <element signature="e#17598#17601#0" expanded="false" />
-            <element signature="e#17686#17725#0" expanded="false" />
-            <element signature="e#17739#17767#0" expanded="false" />
-            <element signature="e#17780#17818#0" expanded="false" />
-            <element signature="e#17832#17872#0" expanded="false" />
-            <element signature="e#17913#17935#0" expanded="false" />
-            <element signature="e#17964#18008#0" expanded="false" />
-            <element signature="e#18036#18062#0" expanded="false" />
-            <element signature="e#18114#18142#0" expanded="false" />
-            <element signature="e#18197#18225#0" expanded="false" />
-            <element signature="e#18262#18360#0" expanded="false" />
-            <element signature="e#18395#18418#0" expanded="false" />
-            <element signature="e#18510#18533#0" expanded="false" />
-            <element signature="e#18660#18711#0" expanded="false" />
-            <element signature="e#18799#18822#0" expanded="false" />
-            <element signature="e#18840#18890#0" expanded="false" />
-            <element signature="e#18921#18945#0" expanded="false" />
-            <element signature="e#18963#19069#0" expanded="false" />
-            <element signature="e#19085#19137#0" expanded="false" />
-            <element signature="e#19162#19180#0" expanded="false" />
-            <element signature="e#19223#19248#0" expanded="false" />
-            <element signature="e#19347#19384#0" expanded="false" />
-            <element signature="e#19424#19447#0" expanded="false" />
-            <element signature="e#19480#19521#0" expanded="false" />
-            <element signature="e#19657#19762#0" expanded="false" />
-            <element signature="e#19783#19902#0" expanded="false" />
-            <element signature="e#19939#19978#0" expanded="false" />
-            <element signature="e#20001#20333#0" expanded="false" />
-            <element signature="e#20391#20436#0" expanded="false" />
-            <element signature="e#20504#20533#0" expanded="false" />
-            <element signature="e#20561#20686#0" expanded="false" />
-            <element signature="e#20752#20811#0" expanded="false" />
-            <element signature="e#20824#20887#0" expanded="false" />
-            <element signature="e#20902#20958#0" expanded="false" />
-            <element signature="e#20972#21039#0" expanded="false" />
-            <element signature="e#21053#21116#0" expanded="false" />
-            <element signature="e#21129#21194#0" expanded="false" />
-            <element signature="e#21209#21268#0" expanded="false" />
-            <element signature="e#21283#21343#0" expanded="false" />
-            <element signature="e#21357#21419#0" expanded="false" />
-            <element signature="e#21677#21695#0" expanded="false" />
-            <element signature="e#21727#21756#0" expanded="false" />
-            <element signature="e#21823#21852#0" expanded="false" />
-            <element signature="e#21898#21945#0" expanded="false" />
-            <element signature="e#22048#22092#0" expanded="false" />
-            <element signature="e#22114#22180#0" expanded="false" />
-            <element signature="e#22217#22248#0" expanded="false" />
-            <element signature="e#22266#22289#0" expanded="false" />
-            <element signature="e#22363#22383#0" expanded="false" />
-            <element signature="e#22524#22540#0" expanded="false" />
-            <element signature="e#22564#22612#0" expanded="false" />
-            <element signature="e#22653#22698#0" expanded="false" />
-            <element signature="e#22834#22863#0" expanded="false" />
-            <element signature="e#22886#22908#0" expanded="false" />
-            <element signature="e#22988#23041#0" expanded="false" />
-            <element signature="e#23069#23124#0" expanded="false" />
-            <element signature="e#23157#23190#0" expanded="false" />
-            <element signature="e#23204#23285#0" expanded="false" />
-            <element signature="e#23343#23386#0" expanded="false" />
-            <element signature="e#23418#23552#0" expanded="false" />
-            <element signature="e#23572#23655#0" expanded="false" />
-            <element signature="e#23688#23711#0" expanded="false" />
-            <element signature="e#23772#23817#0" expanded="false" />
-            <element signature="e#23912#23968#0" expanded="false" />
-            <element signature="e#24113#24224#0" expanded="false" />
-            <element signature="e#24255#24344#0" expanded="false" />
-            <element signature="e#24366#24449#0" expanded="false" />
-            <element signature="e#24662#24713#0" expanded="false" />
-            <element signature="e#24743#25075#0" expanded="false" />
-            <element signature="e#25107#25299#0" expanded="false" />
-            <element signature="e#25339#25369#0" expanded="false" />
-            <element signature="e#25406#25429#0" expanded="false" />
-            <element signature="e#25478#25509#0" expanded="false" />
-            <element signature="e#25542#25564#0" expanded="false" />
-            <element signature="e#25596#25619#0" expanded="false" />
-            <element signature="e#25648#25667#0" expanded="false" />
-            <element signature="e#25763#25786#0" expanded="false" />
-            <element signature="e#25869#25900#0" expanded="false" />
-            <element signature="e#25933#25975#0" expanded="false" />
-            <element signature="e#26092#26113#0" expanded="false" />
-            <element signature="e#26207#26266#0" expanded="false" />
-            <element signature="e#26372#26399#0" expanded="false" />
-            <element signature="e#26434#26461#0" expanded="false" />
-            <element signature="e#26654#26728#0" expanded="false" />
-            <element signature="e#26767#26814#0" expanded="false" />
-            <element signature="e#26839#26870#0" expanded="false" />
-            <element signature="e#26895#26923#0" expanded="false" />
-            <element signature="e#26968#26991#0" expanded="false" />
-            <element signature="e#27013#27057#0" expanded="false" />
-            <element signature="e#27138#27201#0" expanded="false" />
-            <element signature="e#27229#27255#0" expanded="false" />
-            <element signature="e#27283#27337#0" expanded="false" />
-            <element signature="e#27370#27391#0" expanded="false" />
-            <element signature="e#27422#27468#0" expanded="false" />
-            <element signature="e#27548#27584#0" expanded="false" />
-            <element signature="e#27613#27636#0" expanded="false" />
-            <element signature="e#27661#27683#0" expanded="false" />
-            <element signature="e#27707#27901#0" expanded="false" />
-            <element signature="e#27991#28073#0" expanded="false" />
-            <element signature="e#28187#28279#0" expanded="false" />
-            <element signature="e#28312#28342#0" expanded="false" />
-            <element signature="e#28360#28380#0" expanded="false" />
-            <element signature="e#28399#28428#0" expanded="false" />
-            <element signature="e#28453#28475#0" expanded="false" />
-            <element signature="e#28493#28519#0" expanded="false" />
-            <element signature="e#28538#28556#0" expanded="false" />
-            <element signature="e#28583#28611#0" expanded="false" />
-            <element signature="e#28723#28740#0" expanded="false" />
-            <element signature="e#28765#28808#0" expanded="false" />
-            <element signature="e#28828#28851#0" expanded="false" />
-            <element signature="e#28873#28893#0" expanded="false" />
-            <element signature="e#29025#29091#0" expanded="false" />
-            <element signature="e#29110#29156#0" expanded="false" />
-            <element signature="e#29295#29401#0" expanded="false" />
-            <element signature="e#29459#29478#0" expanded="false" />
-            <element signature="e#29498#29523#0" expanded="false" />
-            <element signature="e#29562#29580#0" expanded="false" />
-            <element signature="e#29600#29619#0" expanded="false" />
-            <element signature="e#29755#29913#0" expanded="false" />
-            <element signature="e#29930#29953#0" expanded="false" />
-            <element signature="e#30076#30730#0" expanded="false" />
-            <element signature="e#30144#30172#0" expanded="false" />
-            <element signature="e#30323#30346#0" expanded="false" />
-            <element signature="e#30388#30411#0" expanded="false" />
-            <element signature="e#30523#30546#0" expanded="false" />
-            <element signature="e#30567#30590#0" expanded="false" />
-            <element signature="e#30654#30677#0" expanded="false" />
-            <element signature="e#30699#30728#0" expanded="false" />
-            <element signature="e#30732#31341#0" expanded="false" />
-            <element signature="e#30800#30827#0" expanded="false" />
-            <element signature="e#30978#31001#0" expanded="false" />
-            <element signature="e#31043#31066#0" expanded="false" />
-            <element signature="e#31178#31201#0" expanded="false" />
-            <element signature="e#31265#31288#0" expanded="false" />
-            <element signature="e#31310#31339#0" expanded="false" />
-            <element signature="e#31343#35232#0" expanded="false" />
-            <element signature="e#31411#31438#0" expanded="false" />
-            <element signature="e#31975#31997#0" expanded="false" />
-            <element signature="e#32020#32070#0" expanded="false" />
-            <element signature="e#32189#32211#0" expanded="false" />
-            <element signature="e#32326#32355#0" expanded="false" />
-            <element signature="e#32385#32413#0" expanded="false" />
-            <element signature="e#32485#32506#0" expanded="false" />
-            <element signature="e#32535#32583#0" expanded="false" />
-            <element signature="e#32624#32672#0" expanded="false" />
-            <element signature="e#32709#32891#0" expanded="false" />
-            <element signature="e#32988#33062#0" expanded="false" />
-            <element signature="e#33079#33167#0" expanded="false" />
-            <element signature="e#33228#33265#0" expanded="false" />
-            <element signature="e#33290#33367#0" expanded="false" />
-            <element signature="e#33388#33503#0" expanded="false" />
-            <element signature="e#33534#33563#0" expanded="false" />
-            <element signature="e#33592#33884#0" expanded="false" />
-            <element signature="e#33923#34033#0" expanded="false" />
-            <element signature="e#34091#34179#0" expanded="false" />
-            <element signature="e#34306#34335#0" expanded="false" />
-            <element signature="e#34395#34483#0" expanded="false" />
-            <element signature="e#34540#34563#0" expanded="false" />
-            <element signature="e#34732#34770#0" expanded="false" />
-            <element signature="e#34854#34878#0" expanded="false" />
-            <element signature="e#34935#35070#0" expanded="false" />
-            <element signature="e#35137#35157#0" expanded="false" />
-            <element signature="e#35200#35230#0" expanded="false" />
-            <element signature="e#35234#35989#0" expanded="false" />
-            <element signature="e#35299#35348#0" expanded="false" />
-            <element signature="e#35364#35391#0" expanded="false" />
-            <element signature="e#35401#35451#0" expanded="false" />
-            <element signature="e#35592#35639#0" expanded="false" />
-            <element signature="e#35652#35680#0" expanded="false" />
-            <element signature="e#35696#35722#0" expanded="false" />
-            <element signature="e#35751#35780#0" expanded="false" />
-            <element signature="e#35950#35987#0" expanded="false" />
-            <element signature="e#36112#37922#0" expanded="false" />
-            <element signature="e#36156#36296#0" expanded="false" />
-            <element signature="e#36315#36352#0" expanded="false" />
-            <element signature="e#36371#36410#0" expanded="false" />
-            <element signature="e#36433#36473#0" expanded="false" />
-            <element signature="e#36556#36578#0" expanded="false" />
-            <element signature="e#36588#36626#0" expanded="false" />
-            <element signature="e#36640#36675#0" expanded="false" />
-            <element signature="e#36683#36720#0" expanded="false" />
-            <element signature="e#36730#36758#0" expanded="false" />
-            <element signature="e#36776#36812#0" expanded="false" />
-            <element signature="e#36834#36897#0" expanded="false" />
-            <element signature="e#36930#36952#0" expanded="false" />
-            <element signature="e#37287#37322#0" expanded="false" />
-            <element signature="e#37338#37384#0" expanded="false" />
-            <element signature="e#37404#37471#0" expanded="false" />
-            <element signature="e#37487#37553#0" expanded="false" />
-            <element signature="e#37569#37596#0" expanded="false" />
-            <element signature="e#37633#37728#0" expanded="false" />
-            <element signature="e#37736#37800#0" expanded="false" />
-            <element signature="e#37831#37866#0" expanded="false" />
-            <element signature="e#37885#37920#0" expanded="false" />
+            <element signature="e#13931#13966#0" expanded="false" />
+            <element signature="e#14045#14063#0" expanded="false" />
+            <element signature="e#14113#14147#0" expanded="false" />
+            <element signature="e#14193#14212#0" expanded="false" />
+            <element signature="e#14514#14567#0" expanded="false" />
+            <element signature="e#14608#14641#0" expanded="false" />
+            <element signature="e#14667#14700#0" expanded="false" />
+            <element signature="e#14728#14760#0" expanded="false" />
+            <element signature="e#14774#14807#0" expanded="false" />
+            <element signature="e#14824#14856#0" expanded="false" />
+            <element signature="e#14869#14901#0" expanded="false" />
+            <element signature="e#14916#14948#0" expanded="false" />
+            <element signature="e#14957#14993#0" expanded="false" />
+            <element signature="e#15186#15226#0" expanded="false" />
+            <element signature="e#15268#15293#0" expanded="false" />
+            <element signature="e#15315#15339#0" expanded="false" />
+            <element signature="e#15358#15386#0" expanded="false" />
+            <element signature="e#15463#15579#0" expanded="false" />
+            <element signature="e#15594#15598#0" expanded="false" />
+            <element signature="e#15625#15651#0" expanded="false" />
+            <element signature="e#15678#15681#0" expanded="false" />
+            <element signature="e#15699#15808#0" expanded="false" />
+            <element signature="e#15870#15893#0" expanded="false" />
+            <element signature="e#15916#15919#0" expanded="false" />
+            <element signature="e#16001#16024#0" expanded="false" />
+            <element signature="e#16081#16121#0" expanded="false" />
+            <element signature="e#16149#16191#0" expanded="false" />
+            <element signature="e#16269#16292#0" expanded="false" />
+            <element signature="e#16378#16501#0" expanded="false" />
+            <element signature="e#16634#16675#0" expanded="false" />
+            <element signature="e#16690#16733#0" expanded="false" />
+            <element signature="e#16776#16819#0" expanded="false" />
+            <element signature="e#16864#16885#0" expanded="false" />
+            <element signature="e#16901#16967#0" expanded="false" />
+            <element signature="e#16984#17028#0" expanded="false" />
+            <element signature="e#17057#17060#0" expanded="false" />
+            <element signature="e#17145#17184#0" expanded="false" />
+            <element signature="e#17198#17226#0" expanded="false" />
+            <element signature="e#17239#17277#0" expanded="false" />
+            <element signature="e#17291#17331#0" expanded="false" />
+            <element signature="e#17372#17394#0" expanded="false" />
+            <element signature="e#17423#17467#0" expanded="false" />
+            <element signature="e#17495#17521#0" expanded="false" />
+            <element signature="e#17573#17601#0" expanded="false" />
+            <element signature="e#17656#17684#0" expanded="false" />
+            <element signature="e#17721#17819#0" expanded="false" />
+            <element signature="e#17854#17877#0" expanded="false" />
+            <element signature="e#17969#17992#0" expanded="false" />
+            <element signature="e#18119#18170#0" expanded="false" />
+            <element signature="e#18258#18281#0" expanded="false" />
+            <element signature="e#18299#18349#0" expanded="false" />
+            <element signature="e#18380#18404#0" expanded="false" />
+            <element signature="e#18422#18528#0" expanded="false" />
+            <element signature="e#18544#18596#0" expanded="false" />
+            <element signature="e#18621#18639#0" expanded="false" />
+            <element signature="e#18682#18707#0" expanded="false" />
+            <element signature="e#18806#18843#0" expanded="false" />
+            <element signature="e#18883#18906#0" expanded="false" />
+            <element signature="e#18939#18980#0" expanded="false" />
+            <element signature="e#19115#19220#0" expanded="false" />
+            <element signature="e#19241#19360#0" expanded="false" />
+            <element signature="e#19397#19436#0" expanded="false" />
+            <element signature="e#19459#19791#0" expanded="false" />
+            <element signature="e#19849#19894#0" expanded="false" />
+            <element signature="e#19962#19991#0" expanded="false" />
+            <element signature="e#20019#20144#0" expanded="false" />
+            <element signature="e#20210#20269#0" expanded="false" />
+            <element signature="e#20282#20345#0" expanded="false" />
+            <element signature="e#20360#20416#0" expanded="false" />
+            <element signature="e#20430#20497#0" expanded="false" />
+            <element signature="e#20511#20574#0" expanded="false" />
+            <element signature="e#20587#20652#0" expanded="false" />
+            <element signature="e#20667#20726#0" expanded="false" />
+            <element signature="e#20741#20801#0" expanded="false" />
+            <element signature="e#20815#20877#0" expanded="false" />
+            <element signature="e#21135#21153#0" expanded="false" />
+            <element signature="e#21185#21214#0" expanded="false" />
+            <element signature="e#21281#21310#0" expanded="false" />
+            <element signature="e#21356#21403#0" expanded="false" />
+            <element signature="e#21506#21550#0" expanded="false" />
+            <element signature="e#21572#21638#0" expanded="false" />
+            <element signature="e#21675#21706#0" expanded="false" />
+            <element signature="e#21724#21747#0" expanded="false" />
+            <element signature="e#21821#21841#0" expanded="false" />
+            <element signature="e#21982#21998#0" expanded="false" />
+            <element signature="e#22022#22070#0" expanded="false" />
+            <element signature="e#22111#22156#0" expanded="false" />
+            <element signature="e#22292#22321#0" expanded="false" />
+            <element signature="e#22344#22366#0" expanded="false" />
+            <element signature="e#22446#22499#0" expanded="false" />
+            <element signature="e#22527#22582#0" expanded="false" />
+            <element signature="e#22615#22648#0" expanded="false" />
+            <element signature="e#22662#22743#0" expanded="false" />
+            <element signature="e#22801#22844#0" expanded="false" />
+            <element signature="e#22876#23010#0" expanded="false" />
+            <element signature="e#23030#23113#0" expanded="false" />
+            <element signature="e#23146#23169#0" expanded="false" />
+            <element signature="e#23230#23275#0" expanded="false" />
+            <element signature="e#23370#23426#0" expanded="false" />
+            <element signature="e#23571#23682#0" expanded="false" />
+            <element signature="e#23713#23802#0" expanded="false" />
+            <element signature="e#23824#23907#0" expanded="false" />
+            <element signature="e#24120#24171#0" expanded="false" />
+            <element signature="e#24201#24533#0" expanded="false" />
+            <element signature="e#24565#24757#0" expanded="false" />
+            <element signature="e#24797#24827#0" expanded="false" />
+            <element signature="e#24864#24887#0" expanded="false" />
+            <element signature="e#24936#24967#0" expanded="false" />
+            <element signature="e#25000#25022#0" expanded="false" />
+            <element signature="e#25054#25077#0" expanded="false" />
+            <element signature="e#25106#25125#0" expanded="false" />
+            <element signature="e#25221#25244#0" expanded="false" />
+            <element signature="e#25327#25358#0" expanded="false" />
+            <element signature="e#25391#25433#0" expanded="false" />
+            <element signature="e#25550#25571#0" expanded="false" />
+            <element signature="e#25665#25724#0" expanded="false" />
+            <element signature="e#25830#25857#0" expanded="false" />
+            <element signature="e#25892#25919#0" expanded="false" />
+            <element signature="e#26112#26186#0" expanded="false" />
+            <element signature="e#26225#26272#0" expanded="false" />
+            <element signature="e#26297#26328#0" expanded="false" />
+            <element signature="e#26353#26381#0" expanded="false" />
+            <element signature="e#26426#26449#0" expanded="false" />
+            <element signature="e#26471#26515#0" expanded="false" />
+            <element signature="e#26809#26872#0" expanded="false" />
+            <element signature="e#26900#26926#0" expanded="false" />
+            <element signature="e#26954#27008#0" expanded="false" />
+            <element signature="e#27041#27062#0" expanded="false" />
+            <element signature="e#27093#27139#0" expanded="false" />
+            <element signature="e#27219#27255#0" expanded="false" />
+            <element signature="e#27284#27307#0" expanded="false" />
+            <element signature="e#27332#27354#0" expanded="false" />
+            <element signature="e#27378#27572#0" expanded="false" />
+            <element signature="e#27662#27709#0" expanded="false" />
+            <element signature="e#27823#27915#0" expanded="false" />
+            <element signature="e#27948#27978#0" expanded="false" />
+            <element signature="e#27996#28016#0" expanded="false" />
+            <element signature="e#28035#28064#0" expanded="false" />
+            <element signature="e#28089#28111#0" expanded="false" />
+            <element signature="e#28129#28155#0" expanded="false" />
+            <element signature="e#28174#28192#0" expanded="false" />
+            <element signature="e#28219#28247#0" expanded="false" />
+            <element signature="e#28359#28376#0" expanded="false" />
+            <element signature="e#28401#28444#0" expanded="false" />
+            <element signature="e#28464#28487#0" expanded="false" />
+            <element signature="e#28509#28529#0" expanded="false" />
+            <element signature="e#28661#28727#0" expanded="false" />
+            <element signature="e#28746#28792#0" expanded="false" />
+            <element signature="e#28931#29037#0" expanded="false" />
+            <element signature="e#29095#29114#0" expanded="false" />
+            <element signature="e#29134#29159#0" expanded="false" />
+            <element signature="e#29198#29216#0" expanded="false" />
+            <element signature="e#29236#29255#0" expanded="false" />
+            <element signature="e#29391#29552#0" expanded="false" />
+            <element signature="e#29569#29592#0" expanded="false" />
+            <element signature="e#29715#30389#0" expanded="false" />
+            <element signature="e#29805#29831#0" expanded="false" />
+            <element signature="e#29982#30005#0" expanded="false" />
+            <element signature="e#30047#30070#0" expanded="false" />
+            <element signature="e#30182#30205#0" expanded="false" />
+            <element signature="e#30226#30249#0" expanded="false" />
+            <element signature="e#30313#30336#0" expanded="false" />
+            <element signature="e#30358#30387#0" expanded="false" />
+            <element signature="e#30478#30505#0" expanded="false" />
+            <element signature="e#30656#30679#0" expanded="false" />
+            <element signature="e#30721#30744#0" expanded="false" />
+            <element signature="e#30856#30879#0" expanded="false" />
+            <element signature="e#30943#30966#0" expanded="false" />
+            <element signature="e#30988#31017#0" expanded="false" />
+            <element signature="e#31021#34948#0" expanded="false" />
+            <element signature="e#31108#31135#0" expanded="false" />
+            <element signature="e#31672#31694#0" expanded="false" />
+            <element signature="e#31736#31786#0" expanded="false" />
+            <element signature="e#31905#31927#0" expanded="false" />
+            <element signature="e#32042#32071#0" expanded="false" />
+            <element signature="e#32101#32129#0" expanded="false" />
+            <element signature="e#32201#32222#0" expanded="false" />
+            <element signature="e#32251#32299#0" expanded="false" />
+            <element signature="e#32340#32388#0" expanded="false" />
+            <element signature="e#32425#32607#0" expanded="false" />
+            <element signature="e#32704#32778#0" expanded="false" />
+            <element signature="e#32795#32883#0" expanded="false" />
+            <element signature="e#32944#32981#0" expanded="false" />
+            <element signature="e#33006#33083#0" expanded="false" />
+            <element signature="e#33104#33219#0" expanded="false" />
+            <element signature="e#33250#33279#0" expanded="false" />
+            <element signature="e#33308#33600#0" expanded="false" />
+            <element signature="e#33639#33749#0" expanded="false" />
+            <element signature="e#33807#33895#0" expanded="false" />
+            <element signature="e#34022#34051#0" expanded="false" />
+            <element signature="e#34111#34199#0" expanded="false" />
+            <element signature="e#34256#34279#0" expanded="false" />
+            <element signature="e#34448#34486#0" expanded="false" />
+            <element signature="e#34570#34594#0" expanded="false" />
+            <element signature="e#34651#34786#0" expanded="false" />
+            <element signature="e#34853#34873#0" expanded="false" />
+            <element signature="e#34916#34946#0" expanded="false" />
+            <element signature="e#35080#35107#0" expanded="false" />
+            <element signature="e#35167#35217#0" expanded="false" />
+            <element signature="e#35358#35405#0" expanded="false" />
+            <element signature="e#35418#35446#0" expanded="false" />
+            <element signature="e#35462#35488#0" expanded="false" />
+            <element signature="e#35517#35546#0" expanded="false" />
+            <element signature="e#35716#35753#0" expanded="false" />
+            <element signature="e#35922#36062#0" expanded="false" />
+            <element signature="e#36081#36118#0" expanded="false" />
+            <element signature="e#36137#36176#0" expanded="false" />
+            <element signature="e#36199#36239#0" expanded="false" />
+            <element signature="e#36322#36344#0" expanded="false" />
+            <element signature="e#36354#36392#0" expanded="false" />
+            <element signature="e#36406#36441#0" expanded="false" />
+            <element signature="e#36449#36486#0" expanded="false" />
+            <element signature="e#36496#36524#0" expanded="false" />
+            <element signature="e#36542#36578#0" expanded="false" />
+            <element signature="e#36600#36663#0" expanded="false" />
+            <element signature="e#36696#36718#0" expanded="false" />
+            <element signature="e#37053#37088#0" expanded="false" />
+            <element signature="e#37104#37150#0" expanded="false" />
+            <element signature="e#37170#37237#0" expanded="false" />
+            <element signature="e#37354#37381#0" expanded="false" />
+            <element signature="e#37418#37513#0" expanded="false" />
+            <element signature="e#37521#37585#0" expanded="false" />
+            <element signature="e#37616#37651#0" expanded="false" />
+            <element signature="e#37670#37705#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="932">
-          <caret line="80" column="23" lean-forward="true" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config-sample.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#463#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-cron.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1432506386000" expanded="true" signature="1170:1240" ph="SELECT optio... ${$wpdb-&gt;options}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-data-editor">
-        <state>
-          <format>
-            <csv-format name="Comma-separated (CSV)">
-              <data>
-                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
-                  <quotation>
-                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
-                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
-                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
-                  </quotation>
-                </record-format>
-              </data>
-              <header>
-                <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
-                  <quotation>
-                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
-                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
-                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
-                  </quotation>
-                </record-format>
-              </header>
-            </csv-format>
-          </format>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-data-editor">
-        <state>
-          <format>
-            <csv-format name="Tab-separated (TSV)_1">
-              <data>
-                <record-format prefix="" suffix="" nullText="2" quotationPolicy="as needed" valueSeparator="&#9;" recordSeparator="&#9;">
-                  <quotation>
-                    <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
-                    <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
-                  </quotation>
-                </record-format>
-              </data>
-            </csv-format>
-          </format>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-activate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1475030188000" expanded="true" signature="2808:2815" ph="..." />
-            <marker date="1475030188000" expanded="true" signature="2819:2826" ph="..." />
-            <marker date="1475030188000" expanded="true" signature="3475:3482" ph="..." />
-            <marker date="1475030188000" expanded="true" signature="3486:3493" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-comments-post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/page_landing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/genesis-sample/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

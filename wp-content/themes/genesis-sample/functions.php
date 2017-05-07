@@ -145,6 +145,9 @@ function genesis_sample_author_box_gravatar( $size ) {
 	return 90;
 }
 
+// Add support for custom background
+add_theme_support( 'custom-background' );
+
 // Modify size of the Gravatar in the entry comments.
 add_filter( 'genesis_comment_list_args', 'genesis_sample_comments_gravatar' );
 function genesis_sample_comments_gravatar( $args ) {
@@ -152,5 +155,24 @@ function genesis_sample_comments_gravatar( $args ) {
 	$args['avatar_size'] = 60;
 
 	return $args;
+
+}
+
+//* Add above the fold section below header on Home page
+genesis_register_sidebar( array(
+    'id'          => 'home_after_header',
+    'name'        => __( 'Home After Header', 'domain' ),
+    'description' => __( 'Above The Fold Section On Home Page', 'domain' ),
+) );
+
+add_action( 'genesis_after_header', 'home_after_header' );
+function home_after_header() {
+    if ( is_front_page() && is_active_sidebar('home_after_header') ) {
+        genesis_widget_area( 'home_after_header', array(
+            'before' => '<div class="home_after_header widget-area">',
+            'after' => '</div>',
+        ) );
+
+    }
 
 }

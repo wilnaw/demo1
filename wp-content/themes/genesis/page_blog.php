@@ -14,4 +14,6 @@
  */
 
 // The blog page loop logic is located in lib/structure/loops.php.
+
+
 genesis();
