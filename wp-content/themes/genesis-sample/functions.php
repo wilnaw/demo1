@@ -18,9 +18,7 @@ include_once( get_stylesheet_directory() . '/lib/theme-defaults.php' );
 
 // Set Localization (do not remove).
 add_action( 'after_setup_theme', 'genesis_sample_localization_setup' );
-/**
- *
- */
+
 function genesis_sample_localization_setup(){
 	load_child_theme_textdomain( 'genesis-sample', get_stylesheet_directory() . '/languages' );
 }
@@ -31,22 +29,22 @@ include_once( get_stylesheet_directory() . '/lib/helper-functions.php' );
 // Add Image upload and Color select to WordPress Theme Customizer.
 require_once( get_stylesheet_directory() . '/lib/customize.php' );
 
-// Include Customizer CSS.
-include_once( get_stylesheet_directory() . '/lib/output.php' );
-
-// Add WooCommerce support.
-include_once( get_stylesheet_directory() . '/lib/woocommerce/woocommerce-setup.php' );
-
-// Add the required WooCommerce styles and Customizer CSS.
-include_once( get_stylesheet_directory() . '/lib/woocommerce/woocommerce-output.php' );
-
-// Add the Genesis Connect WooCommerce notice.
-include_once( get_stylesheet_directory() . '/lib/woocommerce/woocommerce-notice.php' );
+//// Include Customizer CSS.
+//include_once( get_stylesheet_directory() . '/lib/output.php' );
+//
+//// Add WooCommerce support.
+//include_once( get_stylesheet_directory() . '/lib/woocommerce/woocommerce-setup.php' );
+//
+//// Add the required WooCommerce styles and Customizer CSS.
+//include_once( get_stylesheet_directory() . '/lib/woocommerce/woocommerce-output.php' );
+//
+//// Add the Genesis Connect WooCommerce notice.
+//include_once( get_stylesheet_directory() . '/lib/woocommerce/woocommerce-notice.php' );
 
 // Child theme (do not remove).
-define( 'CHILD_THEME_NAME', 'Genesis Sample' );
-define( 'CHILD_THEME_URL', 'http://www.studiopress.com/' );
-define( 'CHILD_THEME_VERSION', '2.3.0' );
+define( 'CHILD_THEME_NAME', 'Tier 1' );
+define( 'CHILD_THEME_URL', 'http://www.wilnaudesign.com/' );
+define( 'CHILD_THEME_VERSION', '1.0' );
 
 // Enqueue Scripts and Styles.
 add_action( 'wp_enqueue_scripts', 'genesis_sample_enqueue_scripts_styles' );
@@ -162,17 +160,111 @@ function genesis_sample_comments_gravatar( $args ) {
 genesis_register_sidebar( array(
     'id'          => 'home_after_header',
     'name'        => __( 'Home After Header', 'domain' ),
-    'description' => __( 'Above The Fold Section On Home Page', 'domain' ),
+    'description' => __( 'Add content above the fold on Home page', 'domain' ),
 ) );
 
 add_action( 'genesis_after_header', 'home_after_header' );
 function home_after_header() {
     if ( is_front_page() && is_active_sidebar('home_after_header') ) {
         genesis_widget_area( 'home_after_header', array(
-            'before' => '<div class="home_after_header widget-area">',
-            'after' => '</div>',
+            'before' => '<div class="home_after_header widget-area"><div class="wrap">',
+            'after' => '</div></div>',
         ) );
 
     }
 
 }
+
+//* Add above the fold section below header on About page
+genesis_register_sidebar( array(
+    'id'          => 'about_after_header',
+    'name'        => __( 'About After Header', 'domain' ),
+    'description' => __( 'Add content above the fold on About page', 'domain' ),
+) );
+
+add_action( 'genesis_after_header', 'about_after_header' );
+function about_after_header() {
+    if ( is_page ('8') ) {
+        genesis_widget_area( 'about_after_header', array(
+            'before' => '<div class="about_after_header widget-area"><div class="wrap">',
+            'after' => '</div></div>',
+	    ) );
+
+	}
+
+}
+
+//* Add above the fold section below header on Start Here page
+genesis_register_sidebar( array(
+    'id'          => 'start_after_header',
+    'name'        => __( 'Start Here After Header', 'domain' ),
+    'description' => __( 'Add content above the fold on Start Here page', 'domain' ),
+) );
+
+add_action( 'genesis_after_header', 'start_after_header' );
+function start_after_header() {
+    if ( is_page ('684') ) {
+        genesis_widget_area( 'start_after_header', array(
+            'before' => '<div class="start_after_header widget-area"><div class="wrap">',
+            'after' => '</div></div>',
+        ) );
+
+    }
+
+}
+
+//* Add above the fold section below header on Blog page
+genesis_register_sidebar( array(
+    'id'          => 'blog_after_header',
+    'name'        => __( 'Blog After Header', 'domain' ),
+    'description' => __( 'Add content above the fold on Blog page', 'domain' ),
+) );
+
+add_action( 'genesis_after_header', 'blog_after_header' );
+function blog_after_header() {
+    if ( is_page ('12') ) {
+        genesis_widget_area( 'blog_after_header', array(
+            'before' => '<div class="blog_after_header widget-area"><div class="wrap">',
+            'after' => '</div></div>',
+        ) );
+
+    }
+
+}
+
+//* Add above the fold section below header on Contact page
+genesis_register_sidebar( array(
+    'id'          => 'contact_after_header',
+    'name'        => __( 'Contact After Header', 'domain' ),
+    'description' => __( 'Add content above the fold on Contact page', 'domain' ),
+) );
+
+add_action( 'genesis_after_header', 'contact_after_header' );
+function contact_after_header() {
+    if ( is_page ('587') ) {
+        genesis_widget_area( 'contact_after_header', array(
+            'before' => '<div class="contact_after_header widget-area"><div class="wrap">',
+            'after' => '</div></div>',
+        ) );
+
+    }
+
+}
+
+
+//* Register widget on Home page for magazine layout post categories
+genesis_register_sidebar( array(
+    'id'          => 'home-top',
+    'name'        => __( 'Home - Top', 'magazine' ),
+    'description' => __( 'This is the top section of the homepage.', 'magazine' ),
+) );
+genesis_register_sidebar( array(
+    'id'          => 'home-middle',
+    'name'        => __( 'Home - Middle', 'magazine' ),
+    'description' => __( 'This is the middle section of the homepage.', 'magazine' ),
+) );
+genesis_register_sidebar( array(
+    'id'          => 'home-bottom',
+    'name'        => __( 'Home - Bottom', 'magazine' ),
+    'description' => __( 'This is the bottom section of the homepage.', 'magazine' ),
+) );
