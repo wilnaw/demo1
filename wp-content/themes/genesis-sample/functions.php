@@ -251,6 +251,24 @@ function contact_after_header() {
 
 }
 
+//* Add above the fold section below header on Services page
+genesis_register_sidebar( array(
+    'id'          => 'services_after_header',
+    'name'        => __( 'Services After Header', 'domain' ),
+    'description' => __( 'Add content above the fold on Services page', 'domain' ),
+) );
+
+add_action( 'genesis_after_header', 'services_after_header' );
+function services_after_header() {
+    if ( is_page ('637') ) {
+        genesis_widget_area( 'services_after_header', array(
+            'before' => '<div class="services_after_header widget-area"><div class="wrap">',
+            'after' => '</div></div>',
+        ) );
+
+    }
+
+}
 
 //* Register widget on Home page for magazine layout post categories
 genesis_register_sidebar( array(

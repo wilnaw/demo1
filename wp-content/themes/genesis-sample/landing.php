@@ -4,7 +4,7 @@
  *
  * This file adds the landing page template to the Genesis Sample Theme.
  *
- * Template Name: Page
+ * Template Name: Silence Page
  *
  * @package Genesis Sample
  * @author  StudioPress
